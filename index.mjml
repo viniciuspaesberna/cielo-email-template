@@ -1,0 +1,432 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-text padding="0" line-height="130%" />
+      <mj-all font-family="Arial, sans-serif" padding="0">
+    </mj-attributes>
+    
+    <mj-style>
+      a[href^="tel"] {
+        color: inherit;
+        text-decoration: inherit;
+        font-size: inherit;
+        font-style: inherit;
+        font-weight: inherit;
+      }
+
+      a[x-apple-data-detectors] {
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+      }
+
+      #MessageViewBody a {
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+      }
+
+      .blueLinks a {
+        color: inherit !important;
+        text-decoration: none !important;
+      }
+
+      @media only screen and (max-width: 768px) {
+        .column {
+          width: 100% !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#E5E5E5" width="640px">
+    <mj-section background-color="#EFF1F3">
+      <mj-column padding="8px 24px">
+        <mj-text align="right" color="#5A646E">Caso não consiga vizualizar este email,
+          <a style="color: #00AEEF;" href="%%view_email_url%%">clique aqui.</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#EFF1F3">
+      <mj-column>
+        <mj-image src="hero.png" alt="Boas-vindas à Cielo!"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-wrapper background-color="#EFF1F3" padding-bottom="32px">
+      <!-- Titulo e descrição -->
+      <mj-section padding="16px">
+        <mj-column width="512px">
+          <mj-text align="center" font-size="26px" font-weight="bold" color="#204986">
+            Você contratou a Cielo e estamos cuidando de tudo para você!
+          </mj-text>
+
+          <mj-spacer height="32px"></mj-spacer>
+
+          <mj-text font-size="18px" color="#5A646E">
+            <span style="font-weight: bold; color: #0774E7;">
+              Seu cadastro foi concluído
+            </span>
+
+             e já estamos cuidando de tudo para habilitar o produto ao seu negócio!
+
+            <span style="font-weight: bold; color: #5A646E;">
+              Confira os detalhes da contratação:
+            </span>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      
+      <!-- Sua conta -->
+      <mj-section padding="16px">
+        <mj-column
+          width="512px"
+          border-radius="16px"
+          padding="32px"
+          background-color="#FFFFFF"
+        >
+          <mj-table padding="0">
+            <tr>
+              <td>
+                <table>
+                  <tr>
+                    <td><img src="user.png" /></td>
+                    <td style="width: 8px;"></td>
+                    <td style="font-size: 20px; color: #0774E7; font-weight:bold;">Sua conta:</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </mj-table>
+
+          <mj-spacer />
+
+          <mj-table padding="0">
+            <tr>
+              <td>
+                <table>
+                  <tr>
+                    <td style="font-size: 13px; color: #fff; font-family: arial; background-color:#00AEEF; border-radius:10px; font-weight:bold; text-align:center" width="49%" height="42px">Estabelecimento Comercial(EC)</td>
+                    <td width="16px" style="width: 16px;"></td>
+                    <td style="font-size: 14px; color: #5C6A7B; font-family: arial; background-color:#DBE0E5; border-radius:10px; text-align:center" width="49%">%%NU_SO_EC%%</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </mj-table>
+
+          <mj-spacer height="6px" />
+
+          <mj-table padding="0">
+            <tr>
+              <td>
+                <table>
+                  <tr>
+                    <td style="font-size: 13px; color: #fff; font-family: arial; background-color:#00AEEF; border-radius:10px; font-weight:bold; text-align:center" width="49%" height="42px">Conta bancária cadastrada</td>
+                    <td width="16px" style="width: 16px;"></td>
+                    <td style="font-size: 14px; color: #5C6A7B; font-family: arial; background-color:#DBE0E5; border-radius:10px; text-align:center" width="49%">%%NM_BANCO%%</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </mj-table>
+
+          <mj-spacer height="24px"></mj-spacer>
+
+          <mj-text font-size="11px" color="#5A646E" align="left">
+            *O EC é o número de identificação do seu negócio, usado em transações ou contratações que fizer!”
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Seu pedido -->
+      <mj-section padding="16px">
+        <mj-column
+          width="512px"
+          border-radius="16px"
+          padding="32px"
+          background-color="#FFFFFF"
+        >
+          <mj-table padding="0">
+            <tr>
+              <td>
+                <table>
+                  <tr>
+                    <td><img src="bank-slip.png" /></td>
+                    <td style="width: 8px;"></td>
+                    <td style="font-size: 20px; color: #0774E7; font-weight:bold;">Seu pedido:</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </mj-table>
+
+          <mj-spacer />
+
+          <mj-table padding="0">
+            <tr>
+              <td>
+                <table>
+                  <tr>
+                    <td style="font-size: 13px; color: #fff; font-family: arial; background-color:#00AEEF; border-radius:10px; font-weight:bold; text-align:center" width="49%" height="42px">Quantidade de Equipamento</td>
+                    <td width="16px" style="width: 16px;"></td>
+                    <td style="font-size: 14px; color: #5C6A7B; font-family: arial; background-color:#DBE0E5; border-radius:10px; text-align:center" width="49%">%%QT_EQPM_NGCD%%</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </mj-table>
+
+          <mj-spacer height="6px" />
+
+          <mj-table padding="0">
+            <tr>
+              <td>
+                <table>
+                  <tr>
+                    <td style="font-size: 13px; color: #fff; font-family: arial; background-color:#00AEEF; border-radius:10px; font-weight:bold; text-align:center" width="49%" height="42px">Taxa Recebimento Automático</td>
+                    <td width="16px" style="width: 16px;"></td>
+                    <td style="font-size: 14px; color: #5C6A7B; font-family: arial; background-color:#DBE0E5; border-radius:10px; text-align:center" width="49%">%%RR_CRED%%</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+
+      <!-- Taxa por bandeira -->
+      <mj-section padding="16px">
+        <mj-column
+          width="512px"
+          border-radius="16px"
+          padding="32px"
+          background-color="#FFFFFF"
+        >
+          <mj-table padding="0">
+            <tr>
+              <td>
+                <table>
+                  <tr>
+                    <td><img src="credit-card-check.png" /></td>
+                    <td style="width: 8px;"></td>
+                    <td style="font-size: 20px; color: #0774E7; font-weight:bold;">Taxa por bandeira:</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </mj-table>
+
+          <mj-spacer />
+
+          <mj-table padding="0">
+            <tr>
+              <td>
+                <table>
+                  <tr>
+                    <td style="background-color:#00AEEF; border-radius:10px; text-align:center" width="49%" height="42px"><img src="visa.png" /></td>
+                    <td width="16px" style="width: 16px;"></td>
+                    <td style="font-size: 14px; color: #5C6A7B; font-family: arial; background-color:#DBE0E5; border-radius:10px; text-align:center" width="49%">%%VISA_DEB%%</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </mj-table>
+
+          <mj-spacer height="6px" />
+
+          <mj-table padding="0">
+            <tr>
+              <td>
+                <table>
+                  <tr>
+                    <td style="background-color:#00AEEF; border-radius:10px; text-align:center" width="49%" height="42px"><img src="mastercard.png" /></td>
+                    <td width="16px" style="width: 16px;"></td>
+                    <td style="font-size: 14px; color: #5C6A7B; font-family: arial; background-color:#DBE0E5; border-radius:10px; text-align:center" width="49%">%%MASTER_DEB%%</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </mj-table>
+
+          
+          <mj-spacer height="6px" />
+
+          <mj-table padding="0">
+            <tr>
+              <td>
+                <table>
+                  <tr>
+                    <td style="background-color:#00AEEF; border-radius:10px; text-align:center" width="49%" height="42px"><img src="elo.png" /></td>
+                    <td width="16px" style="width: 16px;"></td>
+                    <td style="font-size: 14px; color: #5C6A7B; font-family: arial; background-color:#DBE0E5; border-radius:10px; text-align:center" width="49%">%%ELO_DEB%%</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </mj-table>
+
+          <mj-spacer height="6px" />
+
+          <mj-table padding="0">
+          <tr>
+            <td>
+              <table>
+                <tr>
+                  <td style="color: #fff; font-weight: bold; background-color:#00AEEF; border-radius:10px; text-align:center" width="49%" height="42px">Demais bandeiras</td>
+                  <td width="16px" style="width: 16px;"></td>
+                  <td style="font-size: 14px; color: #5C6A7B; font-family: arial; background-color:#DBE0E5; border-radius:10px; text-align:center" width="49%"><a href="https://www.cielo.com.br" style="font-weight: bold; color: #0774E7">Conferir taxas</a></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </mj-table>
+
+          <mj-spacer height="24px" />
+
+          <mj-text font-size="11px" color="#5A646E" align="left">
+            *O EC é o número de identificação do seu negócio, usado em transações ou contratações que fizer!”
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Objetivo de faturamentos -->
+      <mj-section padding="16px">
+        <mj-column
+          width="512px"
+          border-radius="16px"
+          padding="32px"
+          background-color="#00AEEF"
+        >
+          <mj-table padding="0">
+            <tr>
+              <td>
+                <table>
+                  <tr>
+                    <td><img src="credit-card-check-dark.png" /></td>
+                    <td style="width: 8px;"></td>
+                    <td style="font-size: 20px; color: #fff; font-weight:bold;">Objetivo de faturamento:</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </mj-table>
+
+          <mj-spacer />
+
+          <mj-table padding="0">
+            <tr>
+              <td>
+                <table>
+                  <tr>
+                    <td style="font-size: 13px; color: #fff; font-family: arial; background-color:#115297; border-radius:10px; font-weight:bold; text-align:center" width="49%" height="42px">Objetivo de faturamento</td>
+                    <td width="16px" style="width: 16px;"></td>
+                    <td style="font-size: 14px; color: #5C6A7B; font-family: arial; background-color:#DBE0E5; border-radius:10px; text-align:center" width="49%">%%VL_FTRM_META_NGCD%%</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+
+      <!-- CTA -->
+      <mj-section padding="16px">
+        <mj-column width="512px">
+          <mj-text font-size="17px" color="#5A646E">
+            Para detalhamento das demais
+
+            <span style="font-weight: bold; color: #0774E7;">
+              condições relacionadas ao seu contrato
+            </span>
+
+            acesse a página de
+
+            <span style="font-weight: bold; color: #0774E7;">
+              "Minhas Taxas"
+            </span>
+
+            no site ou no app.
+          </mj-text>
+
+          <mj-spacer height="32px"></mj-spacer>
+
+          <mj-button font-family="Arial" font-size="14px" font-weight="bold" border-radius="100px" background-color="#0774E7">
+            Acessar minhas taxas
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Divisor -->
+      <mj-section padding="16px">
+        <mj-column width="512px">
+          <mj-divider border-width="1px" border-color="#E2E2E2" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Central de atendimento titulo -->
+      <mj-section padding="8px 0">
+        <mj-column width="512px">
+          <mj-text font-size="18px" font-weight="bold" color="#0774E7" align="center">Central de atendimento</mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Whatsapp -->
+      <mj-section padding="4px 10px">
+        <mj-column width="512px">
+          <mj-image src="whatsapp.png"></mj-image>
+        </mj-column>
+      </mj-section>
+
+      <!-- Telefones -->
+      <mj-section padding="4px 10px">
+        <mj-column width="44%" padding-bottom="4px">
+          <mj-image width="248px" alt="" src="telefone-capital.png">
+        </mj-column>
+
+        <mj-column width="44%" padding-bottom="4px">
+          <mj-image width="248px" src="telefone-interior.png">
+        </mj-column>
+      </mj-section>
+
+      <!-- Footer titulo -->
+      <mj-section padding="16px" padding-top="20px">
+        <mj-column width="512px">
+          <mj-text font-size="22px" padding-top="16px" font-weight="bold" color="#0774E7" align="center">Conte com a gente sempre que precisar!</mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Cielo apps -->
+      <mj-section padding-top="32px" background-color="#F2F4F8">
+        <mj-column width="40%">
+          <mj-image src="website.png" width="242px" alt="Acesse o site Cielo" href="https://www.cielo.com.br/" padding-bottom="20px"></mj-image>
+        </mj-column>
+
+        <mj-column >
+          <mj-image src="app.png" width="292px" alt="Baixe o app Cielo Gestão" href="https://qrco.de/bdBEnq" padding-bottom="20px"></mj-image>
+        </mj-column>
+      </mj-section>
+
+      <!-- Cielo logo -->
+      <mj-section padding="16px" background-color="#F2F4F8">
+        <mj-column>
+          <mj-image src="cielo.png" width="224px" alt="Cielo. Juntos pelo seu negócio"></mj-image>
+        </mj-column>
+      </mj-section>
+      
+      <!-- Desinscrever-se -->
+      <mj-section padding="16px" padding-top="32px" background-color="#F2F4F8">
+        <mj-column width="512px">
+          <mj-text font-size="12px" color="#5A646E" align="center"> Caso não queira mais receber nossos e-mails, <a style="color: #00AEEF; text-decoration: none; font-weight: bold;" href="%%unsub_center_url%%"> clique aqui.</a></mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
